@@ -4,9 +4,9 @@ const bodyParser = require('body-parser');
 
 const app = express();
 
-const landingPageRoutes = require('./js/backend/routes/landingPage');
-const errorController = require('./js/backend/controllers/error');
-const getTransfers = require('./js/backend/utils/getTransfers');
+const landingPageRoutes = require('./backend/routes/landingPage');
+const errorController = require('./backend/controllers/error');
+const getTransfers = require('./backend/utils/getTransfers');
 
 app.set('view engine', 'ejs');
 app.set('views', 'views');
