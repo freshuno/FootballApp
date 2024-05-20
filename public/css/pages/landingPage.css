@@ -1,0 +1,89 @@
+.body-centering{
+  height: 100svh;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.landing-page-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1.8rem;
+}
+
+.main-header {
+  text-align: center;
+  color: var(--primary-text-color-light);
+  font-weight: 700;
+  text-transform: uppercase;
+  line-height: 1;
+  font-size: 5.2rem;
+  letter-spacing: 0.2rem;
+  text-shadow: 2px 7px 5px rgba(0,0,0,0.3), 
+    0px -4px 10px rgba(255,255,255,0.3);
+}
+
+.short-description {
+  text-align: center;
+  font-weight: 300;
+  font-size: 2.2rem;
+  letter-spacing: 0.05rem;
+  color: var(--primary-text-color-light);
+}
+
+.short-description::first-letter {
+  text-transform: uppercase;
+}
+
+.main-search-bar {
+  text-align: center;
+}
+
+.search-box{
+  padding: 1rem 2rem;
+  border: .1rem solid white;
+
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.search-input{
+  width: 20rem;
+  border: none;
+  outline: none;
+  font-size: 2.2rem;
+  color: var(--primary-text-color-light);
+  background-color: transparent;
+}
+
+.search-input::placeholder{
+  text-transform: uppercase;
+}
+
+.search-icon{
+  width: 3.2rem;
+  height: 3.2rem;
+  transform: scaleX(-1);
+  cursor: pointer;
+}
+
+.landing-button {
+  min-width: 25rem;
+  font-size: 2.2rem;
+  padding: 0.5rem 2rem;
+
+  color: var(--primary-text-color-light);
+  background-color: transparent;
+  border: .2rem solid white;
+
+  display: grid;
+  place-items: center;
+}
+
+.landing-button:focus-visible{
+  outline: 0.5rem solid orange;
+}
