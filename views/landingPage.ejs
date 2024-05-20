@@ -1,18 +1,18 @@
-<%- include('./includes/head.ejs') %>
+  <%- include('./includes/head.ejs') %>
+  <link rel="stylesheet" href="/css/pages/landingPage.css">
 </head>
-  <body>
-    <main>
-      <h1>SPALONY.PL</h1>
-      <h3>Wszystko w jednym miejscu</h3>
-
-      <form>
-        <div class="search">
-          <img src="/assets/magnifier-glass-svgrepo-com.svg" alt="Search Icon" class="searchIcon">
-          <input type="text" placeholder="WYSZUKAJ">
+  <body class="body-centering">
+    <main class="landing-page-container">
+      <h1 class="main-header">spalony.pl</h1>
+      <p class="short-description">wszystko w jednym miejscu</p>
+      <form class="main-search-bar --upper-and-lower-margin">
+        <div class="search-box">
+          <img src="/assets/magnifier-glass-svgrepo-com.svg" alt="Search Icon" class="search-icon">
+          <input type="text" placeholder="wyszukaj" class="search-input">
         </div>
       </form>
-      <a href="#" class="landingButton">TRANSFERY</a>
-      <a href="#" class="landingButton">NEWSY</a>
+      <a href="transfery" class="landing-button">TRANSFERY</a>
+      <a href="newsy" class="landing-button">NEWSY</a>
   </main>
   </body>
 </html>
