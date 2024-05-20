@@ -38,6 +38,7 @@ body{
 main{
   display: flex;
   flex-direction: column;
+  text-align: center;
 }
 
 h1 {
@@ -60,6 +61,22 @@ form {
 input[type="text"]{
   text-align: center;
   background-color: transparent;
-  border: 2px solid white;
+  border: 1px solid white;
   padding: 10px 20px;
+}
+
+.searchIcon{
+  width: 40px;
+  height: 40px;
+  padding: 5px;
+  position: absolute;
+}
+
+.landingButton {
+  width: 200px;
+  height: 40px;
+  background-color: transparent;
+  border: 2px solid white;
+  color: white;
+  margin:4px 0;
 }
