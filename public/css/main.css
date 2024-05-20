@@ -17,7 +17,6 @@ a:active,
 a:visited,
 a:focus{
   text-decoration: none;
-  color: black;
 }
 
 body{
@@ -38,7 +37,10 @@ body{
 main{
   display: flex;
   flex-direction: column;
-  text-align: center;
+  justify-content: center;
+  align-items: center;
+  
+  gap: 2rem;
 }
 
 h1 {
@@ -61,22 +63,25 @@ form {
 input[type="text"]{
   text-align: center;
   background-color: transparent;
-  border: 1px solid white;
-  padding: 10px 20px;
+  border: .1rem solid white;
+  padding: 1rem 2rem;
 }
 
 .searchIcon{
-  width: 40px;
-  height: 40px;
-  padding: 5px;
+  width: 4rem;
+  height: 4rem;
+  padding: .5rem;
   position: absolute;
 }
 
 .landingButton {
-  width: 200px;
-  height: 40px;
+  display: inline-block;
+  width: 20rem;
+  height: 4rem;
   background-color: transparent;
-  border: 2px solid white;
+  border: .2rem solid white;
   color: white;
-  margin:4px 0;
+  margin: .4rem 0rem;
+  display: grid;
+  place-items: center;
 }
