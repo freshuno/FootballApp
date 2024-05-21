@@ -22,7 +22,7 @@ const testApi = async() =>{
   console.log(res);
 }
 
-// testApi();
+testApi();
 
 app.listen(3000, () => {
   console.log(`Server started!`)
